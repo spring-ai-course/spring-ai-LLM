@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-openai-demo
+
+
+  ai:
+   openai:
+     api-key: ${OPENAI_API_KEY}
+
+#  ai:
+#    google:
+#      genai:
+#        api-key: ${GEMINI_API_KEY}
+
+
+# ai:
+#   anthropic:
+#     api-key:
+
+server:
+  port: 9292
